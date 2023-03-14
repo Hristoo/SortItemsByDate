@@ -1,5 +1,4 @@
 ﻿using System.Linq;
-using System.Text.Json.Nodes;
 
 public class Program
 {
@@ -28,7 +27,8 @@ public class Program
             }
             catch (FormatException)
             {
-                Console.WriteLine($"Wrong date format '{x.date}'!");
+                Console.WriteLine($"Wrong date format '{x.date}'");
+                Console.WriteLine();
             }
         });
 
